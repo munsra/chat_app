@@ -42,3 +42,34 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android specific
+/build/
+.gradle/
+/local.properties
+/.idea
+
+# iOS specific
+Pods/
+Podfile.lock
+*.xcworkspace/
+!ios/Runner.xcworkspace/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.xccheckout
+*.xcuserstate
+
+# Firebase
+/firebase/
+/firestore.rules
+/firestore.indexes.json
+/firebase.json
+/firebase.lock
