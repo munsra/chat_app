@@ -134,7 +134,6 @@ class _AuthScreenState extends State<AuthScreen> {
                               decoration:
                                   const InputDecoration(labelText: 'Username'),
                               enableSuggestions: false,
-                              obscureText: true,
                               validator: (value) {
                                 if (value == null || value.trim().length < 4) {
                                   return 'The username must be at least 4 characters long.';
